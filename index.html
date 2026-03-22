@@ -6098,6 +6098,10 @@
   <script id="ultimate-watermark-killer-js">
     (function () {
       const fix = () => {
+        const copyright = document.querySelector('[data-framer-name="Copyright"] p');
+        if (copyright && !copyright.innerText.includes('Khushboo')) {
+            copyright.innerText = '© Khushboo Weds Kuldeep 2026';
+        }
         document.querySelectorAll('.__framer-badge, #framer-badge-container, .__framer-editorbar, [data-framer-name*="Watermark"], [data-framer-name*="Logo"], [data-framer-name*="framer-badge"]').forEach(el => {
           el.style.setProperty('display', 'none', 'important');
         });
