@@ -12,7 +12,7 @@ js = js.replace(/Kanika/g, 'Khushboo');
 js = js.replace(/Mehendi/g, 'Haldi');
 js = js.replace(/Cocktail/g, 'Ladies Sangeet');
 js = js.replace(/Pre-wedding/g, 'RSVP');
-js = js.replace(/Shaadi/g, 'Nanihal Paksh');
+js = js.replace(/Shaadi/g, 'Shaadi');
 // Keep Reception but update with schedule info
 
 // Dates

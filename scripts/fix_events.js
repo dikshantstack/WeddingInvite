@@ -24,7 +24,7 @@ html = html.replace(/>Friday, March 9th 2026<\/p>/, '>Call to confirm: 946633602
 html = html.replace(/>6pm Onwards<\/p>/, '>Balwant, Balbir, Prem, Subhash, Sundar, Nishant, Ashok, Divay (Indian Air Force)<\/p>');
 
 // Replace Shaadi card
-html = html.replace(/>Shaadi<\/p>/, '>Nanihal Paksh<\/p>');
+html = html.replace(/>Shaadi<\/p>/, '>Shaadi<\/p>');
 html = html.replace(/>Friday, March 9th 2026<\/p>/, '>Nana Ji - Hetram Ji Saharan<\/p>');
 html = html.replace(/>6pm Onwards<\/p>/, '>Ramchander Ji, Rajkumar Ji, Rohtash Ji, Surender Ji, Ajay Ji (Mama Ji)<\/p>');
 
