@@ -39,12 +39,16 @@ const url = require('url');
       window.scrollTo(0, i);
       await new Promise(r => setTimeout(r, 30));
     }
+    // Replace the incorrect WhatsApp number in the HTML
+    document.querySelectorAll('a[href*="91XXXXXXXXXX"]').forEach(el => {
+      el.href = 'https://wa.me/919466336029';
+    });
   });
 
   await page.waitForTimeout(5000);
 
   const html = await page.content();
-  fs.writeFileSync('/Users/dikshantjangra/Documents/ProjectS/WeddingInvite/index.html', html);
+  fs.writeFileSync('./index.html', html);
 
   console.log(`✅ Downloaded ${Object.keys(downloadedAssets).length} assets!`);
   await browser.close();
